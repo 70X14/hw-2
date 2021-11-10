@@ -5,17 +5,14 @@
     --second-text-color: rgba(255, 255, 255, 0.6);
     --accent-color: #2196F3;
     --first-btn-color: #FFFFFF;
-    --first-body-background-color: #FFFFFF;
+    --first-body-background-color:  #E5E5E5;
     --second-body-background-color: #2F303A;
 }
 
 body{
     font-family: Roboto, sans-serif;
     margin: 0;
-}
-
-.body-background1{
-    background-color:var(--first-body-background-color)
+    background-color: var(--first-body-background-color);
 }
 
 .body-background2{
@@ -29,34 +26,30 @@ button{
 
 /*----------------------LOGO + пару изминений---------------------------*/
 
+.logo{
+    color:var(--accent-color)
+}
+
 .logo1{
-    text-decoration: none;
-    font-family: Raleway, sans-serif;
-    color: #111;
-}
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,19;
 
-.logo1::before{
-    content:"Web";
-    color: #2196F3;
-}
+    letter-spacing: 0.03em;
 
-.logo1::after{
-    content:"Studio"
+    color: var(--second-title-color);
 }
 
 .logo2{
-    text-decoration: none;
-    font-family: Raleway, sans-serif;
-    color: #FFFFFF;
-}
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,19;
 
-.logo2::before{
-    content:"Web";
-    color: #2196F3;
-}
+    letter-spacing: 0.03em;
 
-.logo2::after{
-    content:"Studio"
+    color: var(--first-title-color);
 }
 
 .list{
@@ -231,6 +224,18 @@ color:var(--first-text-color)
     color:var(--accent-color)
 }
 
+.address-link3{
+    font-size: 14px;
+    line-height: 1,71;
+    letter-spacing: 0.03em;
+
+    color:var(--second-text-color)
+}
+
+.address-link3:hover,
+.address-link3:focus{
+    color:var(--first-title-color)
+}
 /*-------------------------PORTFOLIO----------------------------------*/
 
 .information-title{
