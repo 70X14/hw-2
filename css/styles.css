@@ -5,18 +5,33 @@
     --second-text-color: rgba(255, 255, 255, 0.6);
     --accent-color: #2196F3;
     --first-btn-color: #FFFFFF;
-    --first-body-background-color:  #E5E5E5;
+    --first-body-background-color:  #FFFFFF;
     --second-body-background-color: #2F303A;
+    --third-body-background-color: #F5F4FA;
+    --fourth-body-background-color: #E5E5E5;
+    --background-btn-color:#3ca3f8;
 }
 
 body{
     font-family: Roboto, sans-serif;
-    margin: 0;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    color: var(--second-title-color);
     background-color: var(--first-body-background-color);
 }
 
 .body-background2{
     background-color:var(--second-body-background-color);
+    font-style: unset;
+}
+
+.body-background3{
+    background-color:var(--third-body-background-color);
+    font-style: unset;
+}
+
+.body-background4{
+    background-color:var(--fourth-body-background-color);
     font-style: unset;
 }
 
@@ -34,7 +49,7 @@ button{
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1,19;
+    line-height: 1.19;
 
     letter-spacing: 0.03em;
 
@@ -45,7 +60,7 @@ button{
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1,19;
+    line-height: 1.19;
 
     letter-spacing: 0.03em;
 
@@ -68,8 +83,7 @@ button{
 
 .header-link{
     font-weight: 500;
-    font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.02em;
 
     color: var(--second-title-color)
@@ -87,8 +101,7 @@ button{
 
 .header-link2{
     font-weight: 500;
-    font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.02em;
 
     color: var(--first-text-color)
@@ -105,7 +118,7 @@ button{
 .main-btn{
     font-weight: 700;
     font-size: 16px;
-    line-height: 50px;
+    line-height: 3.12;
     display: flex;
     align-items: center;
     text-align: center;
@@ -121,13 +134,13 @@ button{
 }
 
 .main-btn:hover{
-    background-color:#3ca3f8;
+    background-color:var(--background-btn-color);
 }
 
 .main-solution{
     font-weight: 900;
     font-size: 44px;
-    line-height: 1,36;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -140,18 +153,14 @@ button{
 
 .features-title2{
     font-weight: 700;
-    font-size: 14px;
-    line-height: 1,14;
-    letter-spacing: 0.03em;
+    line-height: 1.14;
     text-transform: uppercase;
 
     color:var(--second-title-color)
 }
 
 .features-text{
-    font-size: 14px;
-    line-height: 1,71;
-    letter-spacing: 0.03em;
+    line-height: 1.71;
 
     color:var(--first-text-color)
 }
@@ -161,9 +170,8 @@ button{
 .opportunities-title{
     font-weight: bold;
     font-size: 36px;
-    line-height: 1,16;
+    line-height: 1.16;
     text-align: center;
-    letter-spacing: 0.03em;
 
     color:var(--second-title-color)
 }
@@ -173,9 +181,8 @@ button{
 .team-title{
     font-weight: 700;
     font-size: 36px;
-    line-height: 1,16;
-    text-align: center;
-    letter-spacing: 0.03em;
+    line-height: 1.16;
+    text-align: center;;
 
     color: var(--second-title-color)
 }
@@ -183,15 +190,14 @@ button{
 .team-name{
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,18;
+    line-height: 1.18;
 
     color:var(--second-title-color)
 }
 
 .team-work{
     font-size: 16px;
-    line-height: 1,18;
-    letter-spacing: 0.03em;
+    line-height: 1.18;
 
 color:var(--first-text-color)
 }
@@ -199,9 +205,7 @@ color:var(--first-text-color)
 /*----------------------ADDRESS--------------------------------*/
 
 .address-link{
-    font-size: 14px;
-    line-height: 1,71;
-    letter-spacing: 0.03em;
+    line-height: 1.71;
 
     color: #FFFFFF;
 }
@@ -212,9 +216,7 @@ color:var(--first-text-color)
 }
 
 .address-link2{
-    font-size: 14px;
-    line-height: 1,71;
-    letter-spacing: 0.03em;
+    line-height: 1.71;
 
     color:var(--second-text-color)
 }
@@ -225,9 +227,7 @@ color:var(--first-text-color)
 }
 
 .address-link3{
-    font-size: 14px;
-    line-height: 1,71;
-    letter-spacing: 0.03em;
+    line-height: 1.71;
 
     color:var(--second-text-color)
 }
@@ -241,7 +241,7 @@ color:var(--first-text-color)
 .information-title{
     font-weight: bold;
     font-size: 18px;
-    line-height: 2,00;
+    line-height: 2.00;
     letter-spacing: 0.06em;
 
     color:var(--second-title-color)
@@ -249,8 +249,7 @@ color:var(--first-text-color)
 
 .information-text{
     font-size: 16px;
-    line-height: 1,87;
-    letter-spacing: 0.03em;
+    line-height: 1.87;
 
     color:var(--first-text-color)
 }
@@ -258,9 +257,8 @@ color:var(--first-text-color)
 .btn-item{
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,62;
+    line-height: 1.62;
     text-align: center;
-    letter-spacing: 0.03em;
     background-color: #F5F4FA;
     border:none;
 
